@@ -21,7 +21,7 @@
 }
 
 .w-33 {
-  width: 33,33%;
+  width: 33.33%;
   width: calc(100% / 3);
 }
 
@@ -86,11 +86,11 @@ header {
 .menu-inline li {
   display: inline;
   padding: 0 10px;
+  color: white;
+  text-transform: uppercase;
 }
 
 .menu-inline li a {
-  color: white;
-  text-transform: uppercase;
   text-decoration: none;
   font-size: 80%;
 }
@@ -116,6 +116,7 @@ header {
 
 .btn.btn-large {
   padding: 20px;
+  text-decoration: none;
 }
 
 /* jumbotron */
@@ -161,44 +162,72 @@ header {
 .three-sect {
   position: relative;
   height: auto;
-  background-color: blueviolet;
-  padding: 30px;
+  padding: 5px;
+  margin-top: 15px;
 }
 
 .three-sect .magicthree{
   width: 80%;
-  height: 700px;
+  height: fit-content;
   margin: auto;
-  background-color: chocolate;
 }
 
-.first{
-  background-color: pink;
-  height: 600px;
+.first.second.third{
+  height: auto;
 }
 
-.second{
-  background-color: plum;
-  height: 600px;
-}
-
-.third{
-  background-color: purple;
-  height: 600px;
-}
 
 /* immagini */
 .mini-box{
   width: auto;
-  background-color: rgb(12, 50, 90);
-  height: 500px;
-  margin: 10%;
+  height: fit-content;
+  margin: 2px;
+}
+
+.first-pic{
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.second-pic{
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.third-pic{
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+.green-title{
+  font-size: 20px;
+  text-align: center;
+  color: rgb(166, 209, 84);
+}
+
+hr{
+  width: 30%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: grey;
 }
 
 .pic-txt{
+  margin-top: 15px;
   width: auto;
-  height: 70px;
-  background-color: seagreen;
+  text-align: center;
+  font-weight: bold;
 }
 
 .fisrt-pic{
@@ -209,21 +238,20 @@ header {
 /* seconda sezione a due */
 .two-sect {
   position: relative;
-  height: 500px;
+  height: fit-content;
   background-color: orchid;
   padding: 30px;
 }
 
 .two-sect .magictwo{
   width: 80%;
-  height: 450px;
+  height: fit-content;
   margin: auto;
-  background-color: rgb(54, 23, 0);
+  
 }
 
 .mount-pic{
-  background-color: paleturquoise;
-  height: 300px;
+
 }
 
 .inspo-quote{
