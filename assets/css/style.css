@@ -29,6 +29,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: grey;
+  font-weight: lighter;
 }
 
 /* header */
@@ -161,9 +162,7 @@ header {
 /* sezione a tre */
 .three-sect {
   position: relative;
-  height: auto;
-  padding: 5px;
-  margin-top: 15px;
+  height: fit-content;
 }
 
 .three-sect .magicthree{
@@ -176,17 +175,25 @@ header {
   height: auto;
 }
 
-
-/* immagini */
+/* immagini e box*/
 .mini-box{
   width: auto;
   height: fit-content;
   margin: 2px;
+  padding: 80px;
+}
+
+.macro-box1{
+  height: 60%;
+}
+
+.macro-box2{
+  height: 40%;
 }
 
 .first-pic{
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -215,7 +222,7 @@ header {
   color: rgb(166, 209, 84);
 }
 
-hr{
+.magicthree hr{
   width: 30%;
   margin-top: 15px;
   margin-left: auto;
@@ -239,26 +246,72 @@ hr{
 .two-sect {
   position: relative;
   height: fit-content;
-  background-color: orchid;
-  padding: 30px;
+}
+
+.two-sect hr{
+  height: 0.3px;
+  color: rgb(144, 144, 144);
 }
 
 .two-sect .magictwo{
   width: 80%;
-  height: fit-content;
   margin: auto;
-  
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.mount-pic{
-
+.mount-pic img{
+  height: 550px;
 }
 
-.inspo-quote{
-  background-color: palegreen;
+.inspo-box{
   height: 300px;
+  width: 80%;
 }
 
+.inspo-box h1{
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
 
+.inspo-box p{
+  margin-bottom: 10px;
+}
 
 /* footer */
+.inside-grey .strutt-piano{
+  width: 40%;
+  line-height: 100px;
+  padding-left: 100px;
+  font: bolder;
+  color: black;
+  font-weight: 500;
+}
+
+.other-menu{
+  list-style: none;
+  width: 60%;
+  text-align: right;
+  padding-right: 60px;
+}
+
+.other-menu li{
+  line-height: 100px;
+  padding-left: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+li h6{
+  font-size: 16px;
+}
+
+li p {
+  text-decoration: underline;
+}
+
+li p:after {
+  content: '\2B9F';
+}
