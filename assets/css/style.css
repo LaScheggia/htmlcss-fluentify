@@ -321,6 +321,10 @@ li p:after {
   content: '\2B9F';
 }
 
+li.select p{
+  
+}
+
 div.fixed {
   position: fixed;
   bottom: 0;
