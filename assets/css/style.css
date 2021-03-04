@@ -389,6 +389,10 @@ div.fixed {
   letter-spacing: 0.1em;
 }
 
+.set-txt .h24{
+  color: greenyellow;
+}
+
 /* qua vorrei trovare un modo per far andare a capo il p */
 
 /* qua la parte w-50 blu */
@@ -416,3 +420,73 @@ div.fixed {
 }
 
 /* altra parte a tre */
+.teal .macro-box1 h1{
+  margin-bottom: 10px;
+  color: black;
+}
+
+.teal .macro-box2 hr{
+  width: 100%;
+  border: 5px solid rgb(158, 195, 239);
+  margin-bottom: 20px;
+}
+
+.teal .macro-box2 a{
+  color: rgb(158, 195, 239);
+}
+
+
+.orange .macro-box1 h1{
+  margin-bottom: 10px;
+  color: black;
+}
+
+.orange .macro-box2 hr{
+  width: 100%;
+  border: 5px solid rgb(248, 165, 9);
+  margin-bottom: 20px;
+}
+
+.orange .macro-box2 a{
+  color: rgb(248, 165, 9);
+}
+
+.green .macro-box1 h1{
+  margin-bottom: 10px;
+  color: black;
+}
+
+.green .macro-box2 hr{
+  width: 100%;
+  border: 5px solid rgb(128, 181, 13);
+  margin-bottom: 20px;
+}
+
+.green .macro-box2 a{
+  color:rgb(128, 181, 13);
+}
+
+/* qua c'è la parte delle FAQ */
+.faq-sect{
+  height: 150px;
+  background-color: rgb(12, 50, 89);
+}
+
+.faq-par{
+  margin-left: 200px;
+}
+
+.faq-sect .faq-par{
+  padding: 30px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.faq-sect .faq-par h1{
+  color: white;
+}
+
+.faq-par .faq{
+  color: orange;
+
+}
