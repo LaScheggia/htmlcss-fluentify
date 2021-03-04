@@ -33,7 +33,6 @@ body {
 }
 
 /* header */
-
 header {
   height: 550px;
 }
@@ -51,7 +50,6 @@ header {
 }
 
 /* navbar */
-
 .header-nav {
   height: 80px;
   line-height: 80px;
@@ -246,6 +244,10 @@ header {
 }
 
 /* seconda sezione a due */
+.magictwo{
+  height: fit-content;
+}
+
 .two-sect {
   position: relative;
   height: fit-content;
@@ -321,10 +323,7 @@ li p:after {
   content: '\2B9F';
 }
 
-li.select p{
-  
-}
-
+/* linguetta help */
 div.fixed {
   position: fixed;
   bottom: 0;
@@ -337,3 +336,83 @@ div.fixed {
   color: white;
   background-color: rgb(154, 205, 50);
 }
+
+/* parte extra */
+
+/* parte delle manine */
+.btn.btn-green.big-green{
+  text-transform: uppercase;
+}
+
+.btn.btn-white{
+  text-align: center;
+  color: rgb(184, 198, 211);
+}
+
+.shaky-pic img{
+  width: 700px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+/* qua la sezione forever alone */
+.the-solo-sect{
+  height: 500px;
+  background-color: rgb(255, 182, 182);
+  margin-top: 10px;
+}
+
+.solo-sec{
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  background-color: rgb(181, 205, 250);
+}
+
+.set-pic{
+  text-align: center;
+  height: fit-content;
+}
+
+.set-pic img{
+  width: 700px;
+  height: 320px;
+}
+
+.set-txt{
+  text-align: center;
+  line-height: 30px;
+}
+
+.set-txt h1{
+  color: black;
+  letter-spacing: 0.1em;
+}
+
+/* qua vorrei trovare un modo per far andare a capo il p */
+
+/* qua la parte w-50 blu */
+.two-sect.clearfix.blue{
+  height: 350px;
+  background-color: rgb(12, 50, 89);
+}
+
+.magictwo.talk{
+  background-color: rgb(12, 50, 89);
+}
+
+.box-azienda{
+  padding-top: 80px;
+  padding-right: 90px;
+}
+
+.box-azienda h1{
+  margin-bottom: 30px;
+  color: white;
+}
+
+.box-azienda p{
+  margin-bottom: 20px;
+}
+
+/* altra parte a tre */
