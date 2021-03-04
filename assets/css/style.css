@@ -21,7 +21,6 @@
 }
 
 .w-33 {
-  width: 33.33%;
   width: calc(100% / 3);
 }
 
@@ -243,15 +242,16 @@ header {
   width: 100px;
 }
 
-/* seconda sezione a due */
-.magictwo{
-  height: fit-content;
-}
-
 .two-sect {
   position: relative;
   height: fit-content;
   min-width: 1400px;
+}
+
+.two-sect .magictwo{
+  width: 80%;
+  height: fit-content;
+  margin: auto;
 }
 
 .two-sect hr{
@@ -287,7 +287,7 @@ header {
   margin-bottom: 10px;
 }
 
-/* footer */
+/* ex footer */
 .inside-grey .strutt-piano{
   width: 40%;
   line-height: 100px;
@@ -321,6 +321,7 @@ li p {
 
 li p:after {
   content: '\2B9F';
+  padding-left: 35px;
 }
 
 /* linguetta help */
@@ -357,16 +358,14 @@ div.fixed {
 
 /* qua la sezione forever alone */
 .the-solo-sect{
-  height: 500px;
-  background-color: rgb(255, 182, 182);
-  margin-top: 10px;
+  height: 450px;
+  margin-top: 50px;
 }
 
 .solo-sec{
   width: 80%;
   height: fit-content;
   margin: auto;
-  background-color: rgb(181, 205, 250);
 }
 
 .set-pic{
@@ -420,6 +419,14 @@ div.fixed {
 }
 
 /* altra parte a tre */
+.cappy{
+  max-height: 130px;
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
 .teal .macro-box1 h1{
   margin-bottom: 10px;
   color: black;
@@ -435,6 +442,13 @@ div.fixed {
   color: rgb(158, 195, 239);
 }
 
+.valigetta{
+  max-height: 130px;
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
 
 .orange .macro-box1 h1{
   margin-bottom: 10px;
@@ -454,6 +468,14 @@ div.fixed {
 .green .macro-box1 h1{
   margin-bottom: 10px;
   color: black;
+}
+
+.edificio{
+  max-height: 130px;
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .green .macro-box2 hr{
@@ -488,5 +510,6 @@ div.fixed {
 
 .faq-par .faq{
   color: orange;
-
 }
+
+/* footer */
